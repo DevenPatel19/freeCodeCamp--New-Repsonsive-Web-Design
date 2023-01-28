@@ -1,0 +1,43 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tenacious D tribute page project" />
+    <title>Tribute Page to the Tribute Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">The Tribute Page to the "Tribute Song"</h1>
+    </header>
+    <main id="main">
+      <div id="link-to-band">
+        <a href="https://tenaciousd.com/" id="tribute-link" target="_blank">The Tenacious D Website</a>
+      </div>
+      <div id="img-div">
+          <img id="image"src="https://images.squarespace-cdn.com/content/v1/5d9141090aa12b04be6aa1cc/1569897176420-3XO6GXTPNLIXZ0TKDYVX/Tenacious+D+Live?format=750w" />
+          <div id="img-caption">Tenacious D Live</div>
+          <p id="tribute-info"> This is not the page of the band Tenacious D... this is just a tribute.
+          </p> 
+      </div>
+
+    </main>
+  </body>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+** end of undefined **
+

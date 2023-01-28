@@ -1,0 +1,66 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Registration Form</title>
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <body>
+      <h1 id="title"> Survey
+      </h1>
+      <p id="description"> This is a survey to collect data and feedback.
+      <form id="survey-form" class="survey-form">
+        <fieldset>
+         <br></br><label id="name-label">Name: <input id="name" type="text" placeholder="What is your Full Name" required > </label>
+        <br></br> <label id="email-label">Email: <input id="email" type="email" placeholder="Please enter a valid Email" required > </label>
+         <br></br><label id="number-label">Number: <input id="number" type="number"  min="0" max="10000" placeholder="Please eneter a number from 0-10000" required > </label>
+        <br></br>
+         <div>
+            <select id="dropdown" name="options" >
+               <option value="">Default</option>
+               <option value="1">Option 1</option>
+               <option value="2">Option 2</option>
+            </select>
+         </fieldset>
+          <br></br>
+         <fieldset>
+         </div>
+         <label><input id="radio" type="radio" name="radio" value="radio"/> Option A</label>
+         <label><input id="radio" type="radio" name="radio" value="radio"/> Option B</label>
+         </fieldset>
+          <br></br>
+        <fieldset>
+         <div>
+            <label>Option 1<input id="checkbox" type="checkbox" value="1"/></label>
+            <label>Option 2<input id="checkbox" type="checkbox" value="2"/></label>
+            <label>Option 3<input id="checkbox" type="checkbox" value="3"/></label>
+         </div>
+        </fieldset>
+         <br></br>
+         <fieldset>
+         <div>
+            <label>Text Area
+            <textarea></textarea>
+            </label>
+         </div>
+         </fieldset>
+         <lable>
+         <br></br>
+         <input type="submit" value="submit" id="submit"/>
+         </label>
+
+      </form>
+      </p>
+   </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
